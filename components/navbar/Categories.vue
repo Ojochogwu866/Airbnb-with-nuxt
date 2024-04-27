@@ -1,5 +1,5 @@
 <template>
-    <div class=" w-full p-4 bg-white shadow-xl flex relative">
+    <div class=" w-full p-2 bg-white shadow-xl flex relative">
         <CategoryNav 
             :categories="categories" 
         />
