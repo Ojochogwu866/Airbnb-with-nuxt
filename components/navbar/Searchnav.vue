@@ -1,11 +1,11 @@
 <template>
   <div
-    class="grid bg-gray-100 rounded-full relative justify-between shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]"
+    class=" bg-gray-100 rounded-full relative justify-between shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]"
     :class="{
-      'grid-cols-4': !isScreenSmall && !props.isScrolled,
-      'grid grid-cols-2 w-10/12 justify-between items-center': isScreenSmall,
+      'grid grid-cols-4': !isScreenSmall && !props.isScrolled,
+      'flex justify-between w-10/12 items-center': isScreenSmall,
       'md:w-9/12 mx-auto': !props.isScrolled && !isScreenSmall,
-      'mx-auto grid-cols-4 w-2/4': props.isScrolled && !isScreenSmall,
+      'mx-auto grid grid-cols-4 w-2/4': props.isScrolled && !isScreenSmall,
     }"
   >
     <SearchInput
