@@ -4,7 +4,7 @@
             <div class="relative flex">
                 <div
                 ref="scrollContainer"
-                class="scrollbar-hide overflow-x-auto flex gap-8 justify-center items-center"
+                class="scrollbar-hide overflow-x-auto flex justify-center items-center"
                 @scroll="handleScroll"
             >
                 <div
