@@ -3,7 +3,7 @@
     class=" bg-gray-100 rounded-full relative justify-between shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]"
     :class="{
       'grid grid-cols-4': !isScreenSmall && !props.isScrolled,
-      'flex justify-between w-full items-center': isScreenSmall,
+      'flex justify-between w-full items-center ': isScreenSmall,
       'md:w-9/12 mx-auto': !props.isScrolled && !isScreenSmall,
       'mx-auto grid grid-cols-4 w-2/4': props.isScrolled && !isScreenSmall,
     }"
@@ -62,7 +62,7 @@
         >Who</SearchInput
       >
 
-      <div class="px-4 py-2 flex items-end justify-end">
+      <div class="px-4 py-2 flex items-end justify-end ">
         <button
           class="flex justify-center items-center rounded-full hover:bg-[#FF385C] transition-colors duration-300"
           :class="{
@@ -81,7 +81,7 @@
       </div>
     </div>
 
-    <div v-else class="flex justify-end items-end relative w-full">
+    <div v-else class="flex  justify-end items-end w-full">
       <div class="px-4 py-2 flex items-end justify-end">
         <button
           class="flex justify-center items-center rounded-full hover:bg-[#FF385C] transition-colors duration-300"

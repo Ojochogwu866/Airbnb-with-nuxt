@@ -28,7 +28,7 @@
     </div>
     <div
       v-if="isModalActive"
-      class="absolute top-full min-w-[500px] min-h-[400px] left-0 mt-2 bg-white rounded-2xl shadow-lg z-50"
+      class="absolute top-full md:min-w-[500px] w-[300px] min-h-[400px] left-0 mt-2 bg-white rounded-2xl shadow-lg z-50"
     >
       <div class="px-4 py-2">
         <p>{{ label }}</p>
