@@ -11,7 +11,7 @@
                     v-for="(category, index) in props.categories"
                     :key="category.title"
                     :class="[
-                    'flex flex-col md:w-[120px] w-[80px] justify-center  items-center cursor-pointer',
+                    'flex flex-col w-[120px] justify-center  items-center cursor-pointer',
                     activeIndex === index ? '' : 'border-b-2 border-transparent',
                     ]"
                     @click="handleCategoryClick(index)"
